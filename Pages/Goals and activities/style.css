@@ -61,6 +61,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .content-container{
     height: 40vh;
@@ -112,6 +113,63 @@ li{
     display: flex;
     margin: 10px;
 }
+/* resources-section start */
+.resources-section{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resources-container{
+    height: 40vh;
+    width: 62%;
+}
+.resources-text{
+    height: 50px;
+    width: 100%;
+}
+.profiles-container{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.same-profile{
+height: 30vh;
+width: 150px;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 1px 1px 10px 1px rgb(193, 192, 192);
+}
+.resources-text{
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile-2, .profile-4{
+    background-color: rgb(114, 224, 224);
+}
+.profile-button{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.button1{
+    height: 15px;
+    width: 45px;
+    background-color: rgb(220, 217, 217);
+    border-radius: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+/* resources-section end */
 
 /* Footer Section Start*/
 .footer-section{
