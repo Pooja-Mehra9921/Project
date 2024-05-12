@@ -1,0 +1,941 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header Section */
+header{
+    height: 40vh;
+    width: 100%;
+    padding: 20px;
+    background-image: linear-gradient(white, pink);
+}
+.logo-container{
+    width: 10%;
+    align-items: start;
+}
+.menu-container{
+    width: 90%;
+    align-items: end;
+}
+.header-logo{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-logo{
+    height: 30px;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(243, 92, 117);
+    font-size: 18px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Header Section End */
+.nav2-section{
+    height: 20vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.hey-text{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(243, 92, 117);
+    font-size: 30px;
+}
+.connect-text{
+    color: rgb(243, 92, 117);
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav2-image-logo{
+   background-image: url(Assents/Photos/nav-image.png);
+   height: 100px;
+   width: 100px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 50%;
+   border: 4px solid white;
+   
+}
+.image-border{
+    border: 1px solid black;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2-text, .nav2-image{
+    width: 50%;
+}
+.nav2-text{
+    align-items: start;
+}
+
+/* profile-images-section Section start */
+.profile-images-section{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    margin-top: -20px;
+}
+.profile-image-container{
+    width: 100%;
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    position: relative;
+}
+.profile{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(218, 202, 202);
+    margin-left: 30px;
+    position: relative;
+    box-shadow: 1px 1px 40px 2px rgb(162, 146, 146);
+}
+.heading-text{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+.Medeum-text{
+    font-size: 10px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.small-text{
+    font-size: 9px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.profile-2, .profile-3, .profile-4, .profile-1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.profile-1{
+    background-image: url(Assents/Photos/hall.png);
+}
+.profile-2{
+    background-image: url(Assents/Photos/Lewis.png);
+}
+.profile-3{
+    background-image: url(Assents/Photos/walker.png);
+}
+.profile-4{
+    background-image: url(Assents/Photos/King.png);
+}
+.profile-1-transparent{
+    height: 110px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+.experience{
+    height: 20px;
+    width: 80px;
+    background-color: rgba(223, 216, 216, 0.694);
+    box-shadow: 1px 1px 6px 1px rgba(74, 70, 70, 0.479);
+position: absolute;
+font-size: 8px;
+border-radius: 20px;
+margin-bottom: 220px;
+margin-left: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+}
+.profile-text{
+    margin: 10px;
+}
+.view-members, .activities-members{
+    height: 20px;
+    width: 140px;
+    font-size: 12px;
+    color: rgb(141, 128, 128);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -725px;
+    border: 1px solid rgb(197, 174, 174);
+    border-radius: 20px;
+}
+.view-members:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.639);
+}
+.activities-members{
+    margin-left: 100px;
+    top: 30px;
+    width: 165px;
+    left: 455px;
+}
+.activities-members:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.639);
+}
+.group-members:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.639);
+}
+.group-members{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    top: 310px;
+    width: 130px;
+    position: absolute;
+    left: 470px;
+    border: 1px solid rgb(197, 174, 174);
+border-radius: 20px;
+font-size: 12px;
+    color: rgb(141, 128, 128);
+}
+.arrow-logo{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(17, 22, 91);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+/* profile-images-section Section End */
+
+/* Goal-section Section Start */
+.goals-section{
+    height: 60vh;
+    width: 100%;
+    background-color: #FEECF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 45px;
+}
+.goals-container{
+    height: 40vh;
+    width: 65%;
+}
+.goals-text-section{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.goals-profile-section{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.goals{
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 40px 2px rgb(162, 146, 146);
+
+}
+.goal-web-section{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    padding: 6px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+.goal-text-section{
+    height: 30px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+.goal-button{
+    height: 18px;
+    border-radius: 2px;
+    width: 40px;
+    background-color: rgb(14, 161, 14);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.web-button{
+    height: 18px;
+    width: 40px;
+    background-color: rgb(241, 69, 98);
+    border-radius: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 5px;
+}
+.goal-profile-detail-section{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.image-1, .image-2, .image-3{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.image-1{
+    position: absolute;
+    left: 10px;
+}
+.image-2{
+    position: absolute;
+    left: 35px;
+}
+.image-3{
+    position: absolute;
+    left: 60px;
+}
+.muli-image{
+    height: 30px;
+}
+.done-button{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 14px;
+    color: grey;
+}
+.goal-buttons-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 100%;
+}
+.target-button{
+    height: 30px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 14px;
+    color: grey;
+    margin-left: 12px;
+}
+/* Goal-section Section End */
+
+/* collaboration-section Start*/
+.collaboration-section{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 45px;
+}
+.collaboration-container{
+    height: 60vh;
+    width: 65%;
+}
+.collaboration-text-section{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    justify-content: start;
+}
+.collaboration-text-container{
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.collaboration-button-container{
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: end;
+    margin-right: 40px;
+    
+}
+.group-button{
+    height: 25px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.start-button{
+    margin-left: 10px;
+    height: 25px;
+    width: 100px;
+    border: 1px solid grey;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 200;
+    border-radius: 20px;
+}
+.collaboration-profile-container{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collaboration-profile1{
+    height: 180px;
+    width: 250px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 40px 2px rgb(162, 146, 146);
+
+}
+.coll-image{
+    height: 65px;
+    width: 58px;
+    border-radius: 2px;
+    margin-top: 4px;
+}
+.collaboration-images{
+    height: 66px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.coll-text1{
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.coll-text2{
+    padding-left: 10px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    color: #1Eb3be;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coll-text3{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 35px;
+    text-align: justify;
+    font-size: 10px;
+}
+/* collaboration-section End*/
+
+
+
+/* event-profile-section Start*/
+.event-profile-section{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #FEECF1;
+
+}
+.event-profile-container{
+    height: 45vh;
+    width: 65%;
+}
+.event-profile-header{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.event-profile-text{
+    height: 20px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.event-profile-calender{
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: rgb(141, 128, 128);
+    font-size: 12px;
+    padding: 10px;
+}
+.event-profile-images{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.event-pro{
+    height: 200px;
+    width: 190px;
+    background-color: rgb(218, 202, 202);
+    position: relative;
+    box-shadow: 1px 1px 20px 1px rgb(162, 146, 146);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.event-profiles1{
+    background-image: url(Assents/Photos/group-image1.png);
+}
+.event-profiles2{
+    background-image: url(Assents/Photos/group-image2.png);
+}
+.event-profiles3{
+    background-image: url(Assents/Photos/group-image3.png);
+}
+.event-profiles4{
+    background-image: url(Assents/Photos/group-image4.png);
+}
+.event-text1{
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.event-text2{
+    padding-left: 10px;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.event-text3{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 40px;
+    text-align: justify;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.event-mul{
+    position: absolute;
+    left: -5px;
+    top: 5px;
+}
+/* event-profile-section End*/
+
+/* read-about-section start*/
+.read-about-section{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.read-about-container{
+    height: 40vh;
+    width: 65%;
+    
+}
+.read-about-header{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.read-about-text{
+    height: 20px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.read-about-calender{
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: rgb(141, 128, 128);
+    font-size: 12px;
+    padding: 10px;
+}
+.read-about-profile-container{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.read-about{
+    height: 200px;
+    width: 190px;
+    background-color: rgb(218, 202, 202);
+    position: relative;
+    box-shadow: 1px 1px 20px 1px rgb(162, 146, 146);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.read-text1{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.read-text2{
+    padding-left: 10px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-size: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.read-profile-1-transparent{
+    height: 100px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+.read-about{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.read-about-profile1{
+    background-image: url(Assents/Photos/Lewis.png);
+}
+.read-about-profile2{
+    background-image: url(Assents/Photos/King.png);
+}
+.read-about-profile3{
+    background-image: url(Assents/Photos/mandara.png);
+}
+.read-about-profile4{
+    background-image: url(Assents/Photos/walker.png);
+}
+/* read-about-section End*/
+
+/* digital-library-section start*/
+.digital-library-section{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 70px;
+}
+.digital-library-container{
+    height: 70vh;
+    width: 65%;
+}
+.digital-text-header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.digital-library-menu{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.digital-menu{
+   font-size: 12px;  
+   color: grey;
+}
+.menus{
+    border: 1px solid grey;
+    height: 20px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 2px;
+    margin-left: 10px;
+}
+.salesforce-container{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.salesforce-container1, .salesforce-container2{
+    height: 80px;
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 1px 1px 30px 1px rgb(188, 175, 175);
+}
+.sub-saleforce-container1{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(221, 200, 203);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sub-saleforce-container2{
+    height: 80px;
+    width: 250px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;  
+}
+.sales-button{
+    height: 15px;
+    width: 55px;
+    border-radius: 20px;
+    background-color: rgb(230, 72, 98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sales-text{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.didgital-library-foot{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.succuess-section{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.succuess-container{
+    height: 30vh;
+    width: 87%;
+    background-image: linear-gradient(rgb(231, 208, 212),white, rgb(236, 205, 210));
+    box-shadow: 1px 1px 30px 1px rgb(188, 175, 175);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.succuss{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.succussess-image{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+/* digital-library-section End*/
+
+
+/* Footer Section Start*/
+.footer-section{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(to left,white, pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    height: 60vh;
+    width: 80%;
+}
+.footer-S{
+    height: 90px;
+    width: 90px;
+    background-color: #000000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+.foot-log{
+    height: 70px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 70px;
+}
+.foot-text{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.foot-menu-section{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-menu-container{
+    height: 40px;
+    width: 71%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.foot-menu{
+    font-size: 12px;
+    color: #000000;
+}
+.copyright-section{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+/* Footer Section End*/
+
+
+
